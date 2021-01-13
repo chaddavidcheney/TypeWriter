@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "mockdownify-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/mockdownify/MockdownifyWebPart.js",
+          "manifest": "./src/webparts/mockdownify/MockdownifyWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MockdownifyWebPartStrings": "lib/webparts/mockdownify/loc/{locale}.js"
+  }
+}
